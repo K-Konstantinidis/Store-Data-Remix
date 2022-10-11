@@ -10,7 +10,7 @@ struct People{
 contract StoreNumberToPerson{
     uint256 favoriteNumber; // Initialized to zero
 
-    People[] public people;
+    People[] private people;
     mapping(string => uint256) public nameTofvNumber; // Connect a person with their favourite number
 
     /*
