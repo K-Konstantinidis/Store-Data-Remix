@@ -4,10 +4,10 @@ pragma solidity ^0.6.0;
 import "./StoreNumberToPerson.sol";
 
 contract StorageFacory { // 'is StoreNumberToPerson' => Inheritance
-    StoreNumberToPerson[] public StoreArray;
+    StoreNumberToPerson[] private StoreArray;
 
-    // Creates a SimpleStorage to store a value
-    function createSimpleStorageContract() public {
+    // Creates a StoreNumberToPerson to store a value
+    function createStoreNumberToPersonContract() public {
         StoreNumberToPerson StoreNtP = new StoreNumberToPerson();
         StoreArray.push(StoreNtP);
     }
