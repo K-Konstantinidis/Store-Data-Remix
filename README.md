@@ -17,5 +17,3 @@ This is the first two projects of the <a href="https://www.youtube.com/c/Freecod
 
 This is a project made in Remix so you can just add the contracts <a href="https://github.com/K-Konstantinidis/Store-People-Remix/blob/master/contracts/StorageFactory.sol">StorageFactory</a> 
 and <a href="https://github.com/K-Konstantinidis/Store-People-Remix/blob/master/contracts/StoreNumberToPerson.sol">StoreNumberToPerson</a> in your workspace and deploy them!
-
-
